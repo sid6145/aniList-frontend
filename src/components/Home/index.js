@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./style.css";
 
 function Home() {
@@ -9,8 +10,9 @@ function Home() {
       </video>
     <div className="overlay-text">
       <h1>Welcome to Animely</h1>
-      <p>A place to discover new anime shows</p>
-     <button>Discover</button>
+      <p>A place to discover new anime shows daily</p>
+    
+    <Link to="/discover"><button>Discover</button></Link> 
     </div>
       
     </div>

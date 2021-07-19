@@ -28,7 +28,7 @@ function Header() {
 
             <Nav.Link>
               {" "}
-              <Link className="nav-links" to="/">
+              <Link className="nav-links" to="/list">
                 My List{" "}
               </Link>
             </Nav.Link>
