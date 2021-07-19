@@ -6,7 +6,7 @@ import './style.css'
 
 function Header (){
   return (
-    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
+    <Navbar collapseOnSelect className="nav-bar" expand="sm" bg="dark" variant="dark">
     <Container>
     <Navbar.Brand className="logo">My Anime List</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
