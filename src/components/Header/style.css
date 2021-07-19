@@ -1,8 +1,11 @@
 .nav-links{
     padding: 5px 10px;
     margin-left: 35px;
+    text-decoration: none;
 }
 
-.nav-bar{
-    background: transparent;
+
+
+.logo{
+    font-size: 25px;
 }

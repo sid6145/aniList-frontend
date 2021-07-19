@@ -8,8 +8,9 @@ function Home() {
         <source src="background-video.mp4" type="video/mp4" />
       </video>
     <div className="overlay-text">
-      <h1>Welcome to Anime List</h1>
+      <h1>Welcome to Animely</h1>
       <p>A place to discover new anime shows</p>
+     <button>Discover</button>
     </div>
       
     </div>

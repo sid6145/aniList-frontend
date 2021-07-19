@@ -6,19 +6,25 @@ import './style.css'
 
 function Header (){
   return (
-    <Navbar collapseOnSelect className="nav-bar" expand="sm" bg="dark" variant="dark">
+    <Navbar collapseOnSelect  expand="md" variant="dark">
+
     <Container>
-    <Navbar.Brand className="logo">My Anime List</Navbar.Brand>
+    <Navbar.Brand className="logo">Animely</Navbar.Brand>
     <Navbar.Toggle aria-controls="responsive-navbar-nav" />
     <Navbar.Collapse id="responsive-navbar-nav">
       <Nav className="ms-auto">
-      <Link to="/">
-        <Nav.Link className="nav-links">Home</Nav.Link>
+      <Link className="nav-links" to="/">
+        <Nav.Link >Home</Nav.Link>
       </Link>
-        
-        <Nav.Link className="nav-links">Discover</Nav.Link>
-        <Nav.Link className="nav-links">My List</Nav.Link>
-        <Nav.Link className="nav-links">Login</Nav.Link>
+      <Link className="nav-links" to="/">
+        <Nav.Link >Discover</Nav.Link>
+      </Link>
+      <Link className="nav-links" to="/">
+        <Nav.Link >My List</Nav.Link>
+      </Link>
+      <Link className="nav-links" to="/">
+        <Nav.Link >Login</Nav.Link>
+      </Link>
       </Nav>
     </Navbar.Collapse>
     </Container>
