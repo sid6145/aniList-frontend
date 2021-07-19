@@ -1,7 +1,17 @@
+.navBar{
+    background-color: rgba(0,0,0,0.7);
+}
+
 .nav-links{
     padding: 5px 10px;
     margin-left: 35px;
     text-decoration: none;
+    color: white;
+    transition: 0.3s ease;
+}
+
+.nav-links:hover{
+    color: rgb(224, 221, 221);
 }
 
 
