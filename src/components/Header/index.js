@@ -34,7 +34,7 @@ function Header() {
             </Nav.Link>
 
             <Nav.Link>
-              <Link className="nav-links" to="/">
+              <Link className="nav-links" to="/login">
                 Login{" "}
               </Link>
             </Nav.Link>

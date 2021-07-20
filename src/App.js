@@ -5,6 +5,7 @@ import Header from './components/Header'
 import Footer from './components/Footer';
 import Discover from './components/Discover';
 import Mylist from './components/Mylist';
+import Login from './components/Login';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Route exact path="/" component={Home} />
         <Route  path="/discover" component={Discover} />
         <Route  path="/list" component={Mylist} />
+        <Route path="/login" component={Login} />
         <Footer />
       </BrowserRouter>
     </div>
