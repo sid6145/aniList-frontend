@@ -1,3 +1,7 @@
+Hosted on netlify:
+https://60f6883d1181e09fa6a36f85--animely-07.netlify.app/
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
