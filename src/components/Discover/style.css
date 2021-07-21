@@ -2,3 +2,40 @@
     min-height: 100vh;
     background: rgba(0, 0,0, 0.5);
 }
+
+.anime-list{
+    padding:10px 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.anime-card{
+    padding: 20px 10px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.anime-card h3{
+    color: white;
+    margin: 10px;
+}
+
+.anime-card img{
+    width: 250px;
+    height: 250px;
+}
+
+@media screen and (max-width:600px){
+    .anime-card{
+        padding: 20px 10px;
+        width: 300px;
+        background-color: rgba(0, 0, 0, 0.3);
+    }
+
+    .anime-card img{
+        width: 220px;
+        height: 220px;
+    }
+}
